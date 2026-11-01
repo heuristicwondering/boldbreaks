@@ -1,0 +1,5 @@
+Bootstrap: docker
+From: python:3.13-slim
+
+%post
+    pip install --no-cache-dir nilearn nibabel numpy scipy pandas ruptures
